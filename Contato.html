@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site </title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="Horario_de_Atendimento.html">
+    <link rel="stylesheet" href="Página Principal_Projeto_Site_DIO.html">
+    <link rel="stylesheet" href="Sobre_a_clinica.html">
+</head>
+<style>
+    .menu ul {
+           font-family: "Arial";
+           color: azure;
+           font-size: large;
+           border-right: 0cap;
+           justify-content: left ;
+    }
+    .menu h3 {
+            font-family: "Arial";
+            color: rgb(254, 254, 254);
+            font-size: x-large;
+            color: azure;
+            text-shadow: #151313 3px 5px 2px;
+            border-right: 0cap;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+   
+    .row{
+            margin: 5px;
+        }
+    label{
+            width: 100;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+    fieldset{
+            color: rgb(56, 55, 55);
+            background-color: lightblue;
+            border: rgb(71, 67, 146);
+            border-style:double;
+        }
+    textarea {
+            padding:7px 7px;
+            width:350px;
+            border-style:double;
+            border: rgb(71, 67, 146);
+            background:#cad3d8;
+            border-bottom: 1px double #746e6e;
+            border-top: 1px double #373f60;
+            border-left:1px double #333333;
+            border-right:1px double #747373;
+            overflow:hidden;
+            height:150px;   
+        }
+    
+		button {
+			color: #ededed;
+			background-color: #18687b;
+			font-size: 19px;
+			border: 1px solid #26797b;
+			border-radius: 4px;
+			padding: 15px 50px;
+			cursor: pointer
+		}
+		button:hover {
+			color: #2d4cc8;
+			background-color: #20cdd9;
+		}
+        
+        textarea{
+            padding:7px 7px;
+            width:350px;
+            border-bottom: 1px double #171717;
+            border-top: 1px double #171717;
+            border-left:1px double #333333;
+            border-right:1px double #333333;
+            overflow:hidden;
+            height:150px;
+        }
+        .main .content h1{
+            font-family: "Arial", Gadget, sans-serif;
+            font-size: 30px;
+            color: rgb(50, 138, 138);
+            align-items: center;
+            height: 3%;
+            text-align: left;
+            }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <h3 style="padding-top: 5%;"> <strong>Menu</strong></h3>
+                <hr>
+                <li style="padding-bottom: 5%;"><a href="index.html"><b>Página Principal</b></a> </li>
+                <li style="padding-bottom: 5%;"><a href="Sobre_a_clinica.html"><b>Sobre a clínica</b> </a> </li>
+                <li style="padding-bottom: 5%;"><a href="Horario_de_Atendimento.html"><b>Horário de Atendimento </b> </a> </li>
+                <li style="padding-bottom: 5%;"><a href="#Contato"><b>Contato</b></a></li>
+            </ul>
+
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+            </div>
+            <div class="content" id="Contato">
+                <h1 style="padding-bottom: 2%;">Formulario de Contato</h1>
+                <form onsubmit="alert('Mensagem Enviada , Obrigado!')" method="get">
+                    <fieldset style="max-height: 200px;max-width:700px;">
+                        <legend> <strong> Dados de Contato</strong></legend>
+                        <div class="row">
+                            <label> Nome:</label>
+                            <input type="text">
+                            <label> E-Mail:</label>
+                            <input type="email">
+                            <label> Telefone:</label>
+                            <input type="number">
+                        </div>
+                    </fieldset>
+                    <fieldset style="max-width:700px;">
+                        <legend> <strong>Assunto</strong></legend>
+                        <label> </label>
+                        <input type="text" type="text" style="width: 300px;">
+                    </fieldset>
+                    <fieldset style="max-width:700px;">
+                        <legend><strong>Mensagem</strong> </legend>
+                        <div class="row">
+                            <textarea style="text-align: left; font-size: large;color: black; " cols="25" rows="10"></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="row">
+                        <button type="reset">
+                            <b>Limpar</b>
+                        </button>
+                        <button type="submit">
+                            <b> Enviar Formulario</b>
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="footer" style="position: relative;">
+                <img src="https://i.ibb.co/v1zGhM4/Rooster-site.png" alt="" height="159" width="1115">
+                <div style="position: absolute; top: 10px; left: 90px;">
+                    <a href="https://api.whatsapp.com/send?phone=SEUNUMERODETELEFONE" target="_blank">
+                        <img src="https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2018/11/whatsapp-logo-icone-fundo-transparente.png?resize=696%2C712&ssl=1" alt="" width="40" title="Clique aqui e conosco pelo WhatsApp">
+                        <br>
+                        <span style="font-size: 12px;position:absolute; color: #fff;"></span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
