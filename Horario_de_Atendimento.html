@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sobre-a-clinica </title>
+    <link rel="stylesheet" href="Horarios.css">
+    <link rel="stylesheet" href="Horario_de_Atendimento.html">
+    <link rel="stylesheet" href="Página Principal_Projeto_Site_DIO.html">
+    <link rel="stylesheet" href="Contato.html">
+</head>
+<style>
+    .menu ul {
+           font-family: "Arial";
+           color: azure;
+           font-size: large;
+           border-right: 0cap;
+           justify-content: left ;
+    }
+    .menu h3 {
+            font-family: "Arial";
+            color: rgb(254, 254, 254);
+            font-size: x-large;
+            color: azure;
+            text-shadow: #151313 3px 5px 2px;
+            border-right: 0cap;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+    .content {
+            text-align: justify;
+            font-size: 15px;
+            
+        }
+    .main .content h2{
+            font-family: "Arial Black", Gadget, sans-serif;
+            font-size: 30px;
+            color: rgb(9, 48, 48);
+            align-items: center;
+            height: 3%;
+            text-align: left;
+            }
+    
+            table{
+                -webkit-box-shadow: -5px 5px 15px 5px #77acfb; 
+                box-shadow: -5px 5px 15px 5px #77acfb;}
+    .content table {
+            float: right;
+            width: 80%;  
+
+          }
+    .content p {
+            float: left;
+            width: 50%;      
+          }
+    table thead th{
+        background-color:#77acfb;
+         }
+    table tfoot {
+        background-color: gray;
+         }
+    table tbody tr:nth-child(even) td {
+        background-color: lightgray;
+        }
+    table tbody tr:hover td {
+        background-color: rgb(133, 66, 66);
+        cursor: pointer;
+        }
+    button {
+    font-size: 20px;
+    block-size: 30px;
+    background-color: #81ad9e;
+    border-bottom: #0c271e;
+  }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <h3 style="padding-bottom: 5%;"> <strong>Menu</strong></h3>
+                <hr>
+                <li style="padding-bottom: 5%;"><a href="index.html"><b>Página Principal </b></a> </li>
+                <li style="padding-bottom: 5%;"><a href="Sobre_a_clinica.html"><b>Sobre a clínica </b></a> </li>
+                <li style="padding-bottom: 5%;"><a href="#Atendimento"><b>Horário de Atendimento</b> </a> </li>
+                <li style="padding-bottom: 5%;"><a href="Contato.html"><b>Contato</b> </a> </li>
+            </ul>
+
+        </div>
+
+        <div class="main">
+            <div class="header">
+
+                <!-- Aqui vai o seu header -->
+            </div>
+
+            <div class="content" id="Atendimento">
+                <h2 style="color:lightskyblue">Nosso atendimento!</h2>
+                <br>
+                <div>
+                    <p style="position:relative">
+                        A clínica oferece um atendimento completo e diversificado para seus pacientes, com horários de funcionamento estendidos para atender às necessidades de diferentes agendas. Os profissionais são altamente capacitados e experientes em suas respectivas áreas
+                        de atuação, garantindo tratamentos personalizados e eficazes. A clínica conta com especialidades em clínica geral, psicologia, pediatria e oftalmologia, com horários variados para cada área. O objetivo é garantir o melhor atendimento
+                        para cada paciente, de forma cuidadosa, atenciosa e respeitosa. Venha conhecer a clínica e experimente o atendimento de excelência oferecido.
+
+                    </p>
+
+                </div>
+                <div style="width:50% ;padding-bottom: 10px; float:right; ">
+                    <table summary="Tabelas nome idade (resumo dos dados ta tabela para defic. visual)" width="600" align="left" cellspacing="3" cellpadding="3">
+                        <!-- CSS-->
+                        <caption id="8" style="font-size: 22px; color: #77acfb; background-color:lightgray;">Nossos Horários de Atendimento</caption>
+                        <Thead>
+                            <tr id="0">
+                                <th title="Tipos de atendimento">Serviços</td>
+                                    <th>Segunda a Sexta</td>
+                                        <th>Sábados</td>
+                                            <th>Feriados</td>
+                            </tr>
+                        </THead>
+                        <Tbody>
+                            <tr id="1">
+                                <td>Clínica geral </td>
+                                <td>08h - 19h </td>
+                                <td>08h - 14h </td>
+                                <td>08h - 14h </td>
+
+
+                            </tr>
+                            <tr id="2">
+                                <td>Psicologia</td>
+                                <td>08h - 19h </td>
+                                <td>08h - 14h </td>
+                                <td>08h - 14h </td>
+                            </tr>
+                            <tr id="3">
+                                <td>Pediatria</td>
+                                <td>08h - 19h </td>
+                                <td>08h - 18h </td>
+                                <td>- </td>
+                            </tr>
+                            <tr id="4">
+                                <td>Oftalmologia</td>
+                                <td>08h - 19h </td>
+                                <td>08h - 18h </td>
+                                <td>- </td>
+                            </tr>
+
+                        </Tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+            <button type="submit">
+                <a href="Contato.html" style="text-decoration:none; color:#081d3c;">
+                    <strong>Marque uma Consulta</strong>
+                </a>
+            </button>
+            <div class="footer" style="position: relative;">
+                <img src="https://i.ibb.co/v1zGhM4/Rooster-site.png" alt="" height="159" width="1115">
+                <div style="position: absolute; top: 10px; left: 90px;">
+                    <a href="https://api.whatsapp.com/send?phone=SEUNUMERODETELEFONE" target="_blank">
+                        <img src="https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2018/11/whatsapp-logo-icone-fundo-transparente.png?resize=696%2C712&ssl=1" alt="" width="40" title="Clique aqui e conosco pelo WhatsApp">
+                        <br>
+                        <span style="font-size: 12px;position:absolute; color: #fff;"></span>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

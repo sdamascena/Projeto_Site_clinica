@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1400px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(190, 190, 190);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 79%;
+}
+.menu {
+    width: 19%;
+    background: #96a5a7 none no-repeat scroll 0% 0%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    padding: 10px 10px 0px;
+    background-image: url('https://www.clinicagomezyalonso.com/images/odontologia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    background: #77acfb url("https://www.steelcogroup.com/app/uploads/2022/03/dental-header-2-scaled.jpg") -300px -199px;;
+    width: 1105px;
+    height: 230px;
+  }
+   
+.content {
+    background-color: white;
+    min-height: 210px;
+    width: 1072px;
+    padding: 20px;
+    overflow:hidden;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 160px;
+}
